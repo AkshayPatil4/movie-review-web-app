@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  margin: 0;
+  
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.card{
+  
+  justify-content:flex-start;
+}
+
+form{
+  justify-content: center;
+  align-items: left;
+}
+
+label{
+  align-items: center;
+}
+
+.movie_card {
+  position: relative;
+  display: block;
+  width: 500px;
+  height: 200px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.movie_card:hover {
+  transform: scale(1.02);
+  transition: all 0.4s;
+}
+
+.movie_cardfilm {
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 300px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.movie_cardfilm:hover {
+  transform: scale(1.02);
+  transition: all 0.4s;
+}
+
+.movie_cardrat {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.movie_cardrat:hover {
+  transform: scale(1.02);
+  transition: all 0.4s;
+}
+
+button {
+  background-color: #678ad4; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+button:hover{
+  transform: scale(1.02);
+  transition: all 0.4s;
+  cursor: pointer;
+}
